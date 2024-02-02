@@ -27,3 +27,5 @@ while (l < r){
 }
 ```
 ### Memorizing tips:
+1. Let `q[mid]` be in the front. e.g(```q[mid] <= k``` or ```q[mid] >= k```)
+2. if `l = mid` then when calculating mid, need adding 1. e.g(`int mid = l+r+1 >> 1`)
